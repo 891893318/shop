@@ -1,0 +1,5 @@
+# 图像验证码有效期 单位：s
+IMAGE_CODE_REDIS_EXPIRES = 300
+
+# 邮箱验证码
+EMAIL_CODE_REDIS_EXPIRES = 300
