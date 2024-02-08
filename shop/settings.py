@@ -213,7 +213,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # 邮件相关配置
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  # 发送邮件配置
 EMAIL_HOST = 'smtp.qq.com'  # 服务器名称
-EMAIL_PORT = 25  # 服务端口
+EMAIL_PORT = 465  # 服务端口
 EMAIL_HOST_USER = '730347390@qq.com'  # 填写自己邮箱
 EMAIL_HOST_PASSWORD = 'jzgxefevbtuxbfhh'  # 在邮箱中设置的客户端授权密码
 EMAIL_FROM = '蒋**'  # 收件人看到的发件人
