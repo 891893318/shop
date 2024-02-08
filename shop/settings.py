@@ -218,8 +218,9 @@ EMAIL_HOST_USER = '730347390@qq.com'  # 填写自己邮箱
 EMAIL_HOST_PASSWORD = 'jzgxefevbtuxbfhh'  # 在邮箱中设置的客户端授权密码
 EMAIL_FROM = '蒋**'  # 收件人看到的发件人
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-EMAIL_USE_TLS = True  # 是否使用TLS安全传输协议
+
 # EMAIL_USE_SSL = True    #是否使用SSL加密，qq企业邮箱要求使用
 # 与SMTP服务器通信时, 是否启动TLS连接(安全连接), 默认为False
 EMAIL_USE_TLS = False  # 使用 True 可能发送不成功, 所以这里使用 False
+EMAIL_USE_SSL = True
 

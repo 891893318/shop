@@ -36,7 +36,7 @@ class RegisterView(View):
 
             conn = get_redis_connection("verification")
             email_code_server = conn.get(f'email_{email}')
-            print(email_code_server)
+            # print(email_code_server)
 
             if email_code_server is None:
                 return render(request, 'register.html', {'email_code_errmsg': "验证码已失效"})
